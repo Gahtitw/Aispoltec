@@ -262,7 +262,8 @@ p, li {
     min-height: 650px;
     display: flex;
     align-items: center;
-    overflow: hidden; 
+    overflow: hidden;
+    padding-top: 80px;
 }
 
 .hero-bg {
