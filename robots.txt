@@ -1,0 +1,10 @@
+# robots.txt — Aispoltec (www.aispoltec.cl)
+# Generado: junio 2026
+
+# Permitir a todos los motores de búsqueda indexar el sitio completo
+# incluidas las imágenes de obras (útiles para Google Imágenes)
+User-agent: *
+Allow: /
+
+# Sitemap para que Google lo encuentre automáticamente
+Sitemap: https://www.aispoltec.cl/sitemap.xml

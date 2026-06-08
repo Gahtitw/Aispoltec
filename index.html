@@ -1,0 +1,1703 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- ===== METADATOS ESENCIALES ===== -->
+    <meta charset="UTF-8">
+    <!-- Viewport: garantiza que el diseño responsivo funcione en todos los móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO: Título optimizado para búsquedas locales en Chile (60 chars max) -->
+    <title>Aispoltec | Aislamiento e Impermeabilización Profesional en Chile</title>
+
+    <!-- Favicon corporativo (isotipo del escudo de Aispoltec) -->
+    <link rel="icon" type="image/png" href="assets/images/LogoAispoltecSinFondo.png">
+
+    <!-- SEO: Descripción que aparece en Google (150-160 chars) — incluye palabras clave de alta intención -->
+    <meta name="description" content="Aispoltec — especialistas en aislamiento térmico, expansivo y acústico con poliuretano proyectado, e impermeabilización con poliurea pura en Chile. Aisla temperatura, sella filtraciones y reduce tu consumo energético hasta un 40%. +15 años. Antártica.">
+
+    <!-- SEO: Palabras clave que cubren las principales intenciones de búsqueda en Chile -->
+    <meta name="keywords" content="aislamiento térmico chile, aislar temperatura galpón, impermeabilizar techo, poliuretano proyectado precio, poliurea pura industrial, aislamiento expansivo, impermeabilización industrial, aislamiento galpones, reducir temperatura interior, empresa aislamiento santiago, control temperatura bodega, aislamiento frigorífico chile, cadena de frío aislamiento, impermeabilizar azotea, aislamiento acústico industrial, aislamiento techumbres metálicas, espuma poliuretano muros, sellado filtraciones techo, arriendo maquinaria poliuretano, empresa impermeabilización chile, aislamiento contenedor módulo, ahorro energético climatización, Aispoltec, aislamiento Santiago, aislamiento norte chile">
+
+    <!-- SEO: Instrucción a los robots de Google para indexar y seguir enlaces -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Autor del sitio -->
+    <meta name="author" content="Aispoltec">
+
+    <!-- ===== SEGURIDAD: Cabeceras de protección en el navegador ===== -->
+    <!-- Previene ataques MIME-sniffing — el navegador no interpreta archivos con tipo incorrecto -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <!-- Política de referrer: solo envía el origen sin ruta al navegar a sitios externos -->
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <!-- Restringe APIs sensibles que el sitio no necesita: cámara, micrófono, pago, USB -->
+    <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=()">
+    <!-- Fuerza el modo de renderizado más moderno en browsers legacy -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- SEO LOCAL: Geolocalización precisa para búsquedas "cerca de mí" y Google Maps -->
+    <meta name="geo.region" content="CL-RM">
+    <meta name="geo.placename" content="Santiago, Región Metropolitana, Chile">
+    <meta name="geo.position" content="-33.4489;-70.6693">
+    <meta name="ICBM" content="-33.4489, -70.6693">
+
+    <!-- ===== OPEN GRAPH: Previsualizaciones en WhatsApp, LinkedIn, Facebook ===== -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.aispoltec.cl/">
+    <meta property="og:title" content="Aispoltec | Aislamiento Térmico e Impermeabilización en Chile">
+    <meta property="og:description" content="Aisla temperatura, sella filtraciones y reduce tu consumo energético hasta un 40%. Especialistas en poliuretano proyectado y poliurea pura. +15 años. Todo Chile.">
+    <meta property="og:image" content="https://www.aispoltec.cl/assets/images/AispoltecLogoHor.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="es_CL">
+    <meta property="og:site_name" content="Aispoltec">
+
+    <!-- Twitter Card: miniatura cuando se comparte en Twitter/X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@aispoltec">
+    <meta name="twitter:title" content="Aispoltec | Aislamiento Térmico e Impermeabilización en Chile">
+    <meta name="twitter:description" content="Aisla temperatura, sella filtraciones y ahorra energía con poliuretano proyectado y poliurea pura. 15+ años. Operativa en todo Chile incluyendo la Antártica.">
+    <meta name="twitter:image" content="https://www.aispoltec.cl/assets/images/AispoltecLogoHor.png">
+
+    <!-- URL Canónica: evita contenido duplicado si el sitio tiene múltiples URLs -->
+    <link rel="canonical" href="https://www.aispoltec.cl/">
+
+    <!-- Sitemap: algunos browsers y crawlers lo leen desde el HTML también -->
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+
+    <!-- ===== PRECONEXIÓN A SERVIDORES DE GOOGLE FONTS (mejora velocidad) ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- dns-prefetch como fallback para browsers que no soportan preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
+    <!-- ===== TIPOGRAFÍAS EXTERNAS ===== -->
+    <!-- display=swap: muestra texto del sistema mientras carga la fuente (evita texto invisible).
+         Mejora Cumulative Layout Shift (CLS) — métrica directa de ranking en Google Core Web Vitals. -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+    <!-- ===== PRELOAD IMAGEN HERO — mejora Largest Contentful Paint (LCP) ===== -->
+    <!-- La primera imagen del carrusel es el elemento más grande visible al cargar.
+         Precargarla antes de que el CSS la descubra mejora el LCP, métrica clave de Google. -->
+    <link rel="preload" as="image" href="assets/images/Trabajo1.jpg" fetchpriority="high">
+
+    <!-- ===== META THEME-COLOR: color de barra del navegador en Android/Chrome ===== -->
+    <meta name="theme-color" content="#0B2545">
+    <meta name="msapplication-TileColor" content="#0B2545">
+
+    <!-- ===== HOJA DE ESTILOS PRINCIPAL ===== -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- ===== JSON-LD: DATOS ESTRUCTURADOS PARA GOOGLE (SEO AVANZADO) ===== -->
+    <!-- Permite a Google mostrar nombre, teléfono, dirección y servicios directamente en los resultados -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Aispoltec",
+      "description": "Empresa especialista en aislamiento térmico, expansivo y acústico con poliuretano proyectado, e impermeabilización con poliurea pura en todo Chile.",
+      "url": "https://www.aispoltec.cl",
+      "logo": "https://www.aispoltec.cl/assets/images/AispoltecLogoHor.png",
+      "image": "https://www.aispoltec.cl/assets/images/AispoltecLogoHor.png",
+      "telephone": "+56979679866",
+      "email": "aispoltec@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Santiago",
+        "addressCountry": "CL"
+      },
+      "sameAs": [
+        "https://www.instagram.com/aispoltec.cl/",
+        "https://www.facebook.com/aispoltec.cl/"
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      "priceRange": "$$",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Chile"
+      },
+      "serviceType": [
+        "Aislamiento térmico con poliuretano proyectado",
+        "Impermeabilización con poliurea pura",
+        "Aislamiento acústico industrial",
+        "Aislamiento expansivo en muros y techumbres",
+        "Arriendo de maquinaria reactores alta presión",
+        "Control de temperatura en galpones",
+        "Sellado de filtraciones en techos y losas",
+        "Aislamiento frigorífico cadena de frío"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servicios de Aislamiento e Impermeabilización",
+        "itemListElement": [
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Aislamiento Térmico con Poliuretano Proyectado", "description": "Proyección de espuma rígida de celda cerrada λ=0,024 W/m·K. Reduce hasta 40% el consumo de climatización."}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Impermeabilización con Poliurea Pura", "description": "Membrana monolítica sin juntas, elongación ≥400%, transitable en 30 minutos. Alta durabilidad ante filtraciones bajo condiciones normales de uso."}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Aislamiento Acústico Industrial", "description": "Poliuretano de celda abierta NRC≥0,80 para cumplimiento DS 594 MINSAL."}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Aislamiento Expansivo", "description": "Inyección de poliuretano expandible en muros, techumbres y tabiques sin demoler."}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Arriendo de Reactores Alta Presión", "description": "Reactores Graco 1.500–3.000 PSI con supervisor técnico especializado en terreno."}}
+        ]
+      }
+    }
+    </script>
+
+    <!-- ===== JSON-LD: SCHEMA FAQPAGE — Permite a Google mostrar preguntas frecuentes como rich snippets ===== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuál es la diferencia entre el poliuretano y la poliurea?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El poliuretano se expande al aplicarse formando una espuma rígida o flexible ideal para aislamiento térmico y acústico. La poliurea reacciona en 3–7 segundos formando un elastómero denso e impermeable, usado para impermeabilización y protección de superficies. En resumen: el poliuretano aísla la temperatura, la poliurea impermeabiliza y protege."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tiempo toma la aplicación de aislamiento o impermeabilización?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La reacción química es casi instantánea: el poliuretano y la poliurea alcanzan tiempo de gel entre 5 y 15 segundos. Las superficies son transitables en 30 a 60 minutos y alcanzan propiedades mecánicas completas a las 24 horas. Un equipo puede aplicar entre 100 y 250 m² por día."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué garantía ofrecen en sus servicios de aislamiento e impermeabilización?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Todos los proyectos incluyen un certificado de garantía técnica por escrito que cubre: adherencia (≥ 1,5 MPa), espesor de aplicación y estanqueidad ante filtraciones atribuibles a la aplicación. Se entrega además un informe técnico con fotografías y mediciones de control de calidad."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Realizan trabajos de aislamiento térmico en todo Chile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Aispoltec cuenta con capacidad técnica y logística para trasladar equipos reactores a cualquier región de Chile. Tenemos operativa real desde el norte grande (Atacama, Antofagasta) hasta el territorio antártico, atendiendo proyectos residenciales, comerciales, agrícolas, mineros e industriales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto se puede ahorrar en energía con aislamiento térmico de poliuretano?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Con poliuretano proyectado de celda cerrada (λ = 0,024 W/m·K), es posible reducir entre un 25% y un 40% el consumo de climatización según el tipo de recinto y la zona climática. En galpones sin aislamiento previo del norte de Chile, el ahorro en refrigeración puede superar el 40% anual."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Estos materiales de aislamiento son seguros para la salud y el medio ambiente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Una vez curados completamente (24 h), el poliuretano y la poliurea son 100% sólidos, inertes y químicamente estables: no emiten COVs ni solventes. Existen formulaciones de poliurea pura compatibles con almacenamiento de agua potable, según especificaciones de sus fabricantes. La aplicación requiere ventilación y EPP adecuados."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- ===== JSON-LD: SCHEMA WEBSITE — Mejora la representación del sitio en el Knowledge Graph de Google ===== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Aispoltec — Aislamiento e Impermeabilización Chile",
+      "url": "https://www.aispoltec.cl/",
+      "description": "Empresa chilena especialista en aislamiento térmico expansivo y acústico con poliuretano proyectado e impermeabilización con poliurea pura. Aisla temperatura, controla humedad y sella filtraciones en todo Chile.",
+      "inLanguage": "es-CL",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Aispoltec",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.aispoltec.cl/assets/images/AispoltecLogoHor.png"
+        }
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <!-- ===== PRECARGADOR DE PANTALLA ===== -->
+    <!-- Cubre el sitio mientras el JS precarga las imágenes críticas del carrusel -->
+    <!-- La clase 'preloader-hidden' la inyecta script.js cuando todo está listo -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-content">
+            <img src="assets/images/LogoAispoltecSinFondo.png" alt="Cargando Aispoltec" class="preloader-logo">
+            <div class="preloader-bar">
+                <div class="preloader-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== BARRA DE NAVEGACIÓN FIJA SUPERIOR ===== -->
+    <header class="navbar" role="banner">
+        <div class="nav-container">
+
+            <!-- Logo: envuelto en <a> para que sea cliclable como enlace al inicio -->
+            <a href="#inicio" class="logo-container" aria-label="Ir al inicio - Aispoltec">
+                <img src="assets/images/AispoltecLogoHor.png" alt="Aispoltec Logo" class="logo-img">
+            </a>
+
+            <!-- Checkbox oculto: activa/desactiva el menú hamburguesa en móviles sin JavaScript -->
+            <!-- display:none!important es obligatorio para neutralizar estilos heredados del navegador que lo renderizaban visible -->
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox" style="display: none !important;" aria-hidden="true">
+
+            <!-- Etiqueta del botón hamburguesa: 3 líneas que se transforman en X al abrirse (CSS puro) -->
+            <label for="menu-toggle" class="hamburger-btn" aria-label="Abrir menú de navegación" role="button">
+                <span></span> <!-- Línea superior -->
+                <span></span> <!-- Línea central -->
+                <span></span> <!-- Línea inferior -->
+            </label>
+
+            <!-- Menú de navegación principal -->
+            <nav class="nav-menu" aria-label="Navegación principal" role="navigation">
+                <a href="#inicio"    class="nav-link active">Inicio</a>
+                <a href="#servicios" class="nav-link">Servicios</a>
+                <a href="#nosotros"  class="nav-link">Nosotros</a>
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+                <!-- Botón de llamada a la acción principal en el menú -->
+                <a href="#contacto"  class="nav-btn-contacto">Contacto</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- Overlay oscuro para el menú hamburguesa (z-index 999, debajo del nav-menu 1000) -->
+    <!-- JS lo activa/desactiva añadiendo/quitando la clase .overlay-active           -->
+    <div id="menuOverlayBg" class="menu-overlay-bg" aria-hidden="true"></div>
+
+    <!-- ===== CONTENIDO PRINCIPAL DE LA PÁGINA ===== -->
+    <main role="main">
+
+        <!-- ================================================================ -->
+        <!-- SECCIÓN 1: HERO — Zona de impacto visual de primera impresión     -->
+        <!-- ================================================================ -->
+        <section id="inicio" class="hero-section" aria-label="Sección principal">
+
+            <!-- Capas del carrusel automático de fondo (3 imágenes en rotación CSS, sin JS) -->
+            <div class="hero-bg slide1" role="img" aria-hidden="true"></div>
+            <div class="hero-bg slide2" role="img" aria-hidden="true"></div>
+            <div class="hero-bg slide3" role="img" aria-hidden="true"></div>
+
+            <!-- Capa oscura semitransparente sobre las imágenes para legibilidad del texto -->
+            <div class="hero-overlay" aria-hidden="true"></div>
+
+            <!-- Contenedor del texto centrado sobre el carrusel -->
+            <div class="hero-container">
+                <div class="hero-content">
+
+                    <!-- Etiqueta de credibilidad: se muestra antes del H1 para anclar autoridad de marca -->
+                    <div class="hero-badge" aria-hidden="true">
+                        <span class="badge-dot"></span>
+                        <span>Operativo en todo Chile &nbsp;·&nbsp; +15 Años de Experiencia</span>
+                    </div>
+
+                    <!-- H1: Contiene la palabra clave principal para el SEO local chileno -->
+                    <h1>Soluciones Profesionales<br>en <span class="hero-title-highlight">Aislamiento</span> e<br>Impermeabilización</h1>
+
+                    <!-- Párrafo descriptivo con palabras clave secundarias en negrita -->
+                    <p>Aplicamos <strong>poliuretano proyectado de celda cerrada</strong> (λ = 0,024 W/m·K) y <strong>poliurea pura de alta elongación</strong> (≥ 400%) en terreno, con reactores industriales de alta presión. Sellamos, aislamos y protegemos infraestructuras residenciales, comerciales e industriales con tecnología que dura décadas.</p>
+
+                    <!-- Botones de conversión del hero -->
+                    <div class="hero-buttons">
+                        <!-- CTA primario: lleva directo al formulario de contacto -->
+                        <a href="#contacto" class="btn-white">Consultar sin costo &rarr;</a>
+                        <!-- CTA secundario: baja la presión mostrando los servicios primero -->
+                        <a href="#servicios" class="btn-outline">Ver servicios</a>
+                    </div>
+
+                    <!-- Indicador de scroll: mouse y dedo táctil uno al lado del otro -->
+                    <div class="hero-scroll-indicator" aria-hidden="true">
+                        <!-- Lado izquierdo: scroll de mouse -->
+                        <div class="scroll-ind-item">
+                            <div class="scroll-mouse">
+                                <div class="scroll-wheel"></div>
+                            </div>
+                            <span>Scroll</span>
+                        </div>
+                        <!-- Línea separadora vertical -->
+                        <div class="scroll-ind-sep"></div>
+                        <!-- Lado derecho: deslizamiento táctil -->
+                        <div class="scroll-ind-item">
+                            <div class="scroll-finger">
+                                <svg viewBox="0 0 40 60" width="20" height="30" fill="none">
+                                    <rect x="12" y="20" width="16" height="22" rx="8" fill="rgba(255,255,255,0.55)"/>
+                                    <rect x="17" y="8" width="6" height="18" rx="3" fill="rgba(255,255,255,0.85)" class="scroll-finger-anim"/>
+                                </svg>
+                            </div>
+                            <span>Touch</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================================ -->
+        <!-- SECCIÓN 2: ESTADÍSTICAS — Prueba social con métricas numéricas    -->
+        <!-- ================================================================ -->
+        <section class="stats-section" aria-label="Estadísticas corporativas">
+            <div class="stats-container">
+
+                <!-- Estadística 1: Proyectos ejecutados -->
+                <article class="stat-card">
+                    <div class="stat-icon-wrapper" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" class="stat-icon"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6h-6z"/></svg>
+                    </div>
+                    <span class="stat-number" aria-label="Múltiples proyectos">Cientos</span>
+                    <p class="stat-label">de Proyectos Ejecutados en Chile</p>
+                </article>
+
+                <!-- Estadística 2: Años de experiencia en el rubro -->
+                <article class="stat-card">
+                    <div class="stat-icon-wrapper" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" class="stat-icon"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+                    </div>
+                    <span class="stat-number" aria-label="Más de 15 años">15+</span>
+                    <p class="stat-label">Años de Experiencia en el Rubro</p>
+                </article>
+
+                <!-- Estadística 3: Cobertura nacional -->
+                <article class="stat-card">
+                    <div class="stat-icon-wrapper" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" class="stat-icon"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                    </div>
+                    <span class="stat-number" aria-label="Todo Chile">Todo</span>
+                    <p class="stat-label">Chile — Norte, Centro, Sur y Antártica</p>
+                </article>
+
+                <!-- Estadística 4: Garantía técnica escrita -->
+                <article class="stat-card">
+                    <div class="stat-icon-wrapper" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="stat-icon">
+                            <path fill="#ffffff" d="M12 2C8.5 3.5 5 4.5 4 5v6c0 5.5 3.5 10.5 8 12 4.5-1.5 8-6.5 8-12V5c-1-0.5-4.5-1.5-8-3zm-1.5 15l-3.5-3.5 1.4-1.4 2.1 2.1 5.6-5.6 1.4 1.4-7 7z"/>
+                        </svg>
+                    </div>
+                    <span class="stat-number" aria-label="Garantía">100%</span>
+                    <p class="stat-label">de Obras con Garantía Técnica Escrita</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ================================================================ -->
+        <!-- BANDA DE SECTORES — Desfile continuo de industrias que atendemos  -->
+        <!-- ⚠️ Puedes reemplazar los textos por logos reales de clientes      -->
+        <!-- ================================================================ -->
+        <section class="logos-band" aria-label="Sectores industriales que atendemos">
+            <p class="logos-band-label">Sectores que atendemos en todo Chile</p>
+            <div class="logos-track-wrapper" aria-hidden="true">
+                <!-- Los items se duplican para que la animación CSS sea continua e infinita -->
+                <div class="logos-track">
+                    <span class="logo-item"><span class="logo-text">MINERÍA</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">IND. ALIMENTARIA</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">GANADERÍA</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">LOGÍSTICA</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">RETAIL</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">HOSPITALARIA</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">EDUCACIÓN</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">AGROINDUSTRIA</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">PESCA</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">CONSTRUCCIÓN</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">SECTOR PÚBLICO</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">RESIDENCIAL</span></span>
+                    <span class="logo-sep">·</span>
+                    <!-- Duplicado idéntico para loop continuo -->
+                    <span class="logo-item"><span class="logo-text">MINERÍA</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">IND. ALIMENTARIA</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">GANADERÍA</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">LOGÍSTICA</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">RETAIL</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">HOSPITALARIA</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">EDUCACIÓN</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">AGROINDUSTRIA</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">PESCA</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">CONSTRUCCIÓN</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">SECTOR PÚBLICO</span></span>
+                    <span class="logo-sep">·</span>
+                    <span class="logo-item"><span class="logo-text">RESIDENCIAL</span></span>
+                    <span class="logo-sep">·</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ================================================================ -->
+        <!-- SECCIÓN: EL PROBLEMA QUE RESOLVEMOS                               -->
+        <!-- ================================================================ -->
+        <section class="problem-section" aria-labelledby="problem-heading">
+            <div class="problem-container">
+
+                <div class="problem-header">
+                    <span class="section-tag section-tag-light" aria-hidden="true">¿Lo reconoces?</span>
+                    <h2 id="problem-heading">Problemas de aislamiento e impermeabilización que Aispoltec resuelve de forma permanente</h2>
+                    <p>Si alguno de estos problemas afecta tu proyecto, tienes una solución técnica y definitiva más cerca de lo que crees. Aislar temperatura, controlar humedad y sellar filtraciones no es opcional — es rentable.</p>
+                </div>
+
+                <div class="problem-cards-grid">
+
+                    <!-- Problema 1: Temperatura extrema -->
+                    <article class="problem-card">
+                        <div class="problem-icon-wrap" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" class="problem-icon">
+                                <path d="M15 13V5a3 3 0 0 0-6 0v8a5 5 0 1 0 6 0zm-3 7a3 3 0 0 1-3-3 3 3 0 0 1 1-2.24V5a2 2 0 0 1 4 0v9.76A3 3 0 0 1 15 17a3 3 0 0 1-3 3z"/>
+                            </svg>
+                        </div>
+                        <h3>Temperatura extrema interior</h3>
+                        <p class="problem-desc">Un galpón sin aislamiento puede superar los 50 °C en verano en el norte de Chile. Las mermas en productos perecibles, el sobrecalentamiento de equipos y la caída de productividad del personal cuestan más que toda la obra de aislamiento.</p>
+                        <span class="problem-solution-tag">
+                            <svg viewBox="0 0 24 24" class="sol-check" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Aislamiento Térmico de Celda Cerrada
+                        </span>
+                    </article>
+
+                    <!-- Problema 2: Goteras y filtraciones -->
+                    <article class="problem-card">
+                        <div class="problem-icon-wrap" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" class="problem-icon">
+                                <path d="M12 2c-5.33 4.55-8 8.48-8 11.8 0 4.98 3.8 8.2 8 8.2s8-3.22 8-8.2c0-3.32-2.67-7.25-8-11.8z"/>
+                            </svg>
+                        </div>
+                        <h3>Goteras y filtraciones de agua</h3>
+                        <p class="problem-desc">El agua penetra por microfisuras imperceptibles a simple vista. En 2–3 temporadas de lluvia, la humedad corroe el acero estructural, pudre la madera y genera hongos que incumplen normativas sanitarias. Una membrana de poliurea aplicada correctamente lo detiene de forma duradera.</p>
+                        <span class="problem-solution-tag">
+                            <svg viewBox="0 0 24 24" class="sol-check" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Impermeabilización con Poliurea Pura
+                        </span>
+                    </article>
+
+                    <!-- Problema 3: Facturas eléctricas altas -->
+                    <article class="problem-card">
+                        <div class="problem-icon-wrap" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" class="problem-icon">
+                                <path d="M7 2v11h3v9l7-12h-4l4-8z"/>
+                            </svg>
+                        </div>
+                        <h3>Facturas de energía desorbitadas</h3>
+                        <p class="problem-desc">Sin aislamiento, entre el 25% y el 40% de la energía gastada en climatización se escapa por la envolvente del edificio. Con poliuretano de celda cerrada (λ = 0,024 W/m·K), esa fuga se detiene y el sistema de climatización trabaja a la mitad de su capacidad.</p>
+                        <span class="problem-solution-tag">
+                            <svg viewBox="0 0 24 24" class="sol-check" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Ahorra hasta 40% en climatización
+                        </span>
+                    </article>
+
+                    <!-- Problema 4: Contaminación acústica -->
+                    <article class="problem-card">
+                        <div class="problem-icon-wrap" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" class="problem-icon">
+                                <path d="M16.5 12A4.5 4.5 0 0 0 14 7.97v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/>
+                            </svg>
+                        </div>
+                        <h3>Contaminación acústica industrial</h3>
+                        <p class="problem-desc">La norma DS 594 del MINSAL fija límites de 85 dB en jornadas de 8 horas. Las empresas que superan ese umbral sin medidas acústicas enfrentan multas de la SEREMI de Salud y licencias médicas por hipoacusia laboral. El poliuretano de celda abierta (NRC ≥ 0,80) resuelve el cumplimiento normativo.</p>
+                        <span class="problem-solution-tag">
+                            <svg viewBox="0 0 24 24" class="sol-check" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Aislamiento Acústico de Celda Abierta
+                        </span>
+                    </article>
+
+                </div><!-- fin .problem-cards-grid -->
+
+            </div><!-- fin .problem-container -->
+        </section>
+
+        <!-- ================================================================ -->
+        <!-- SECCIÓN 2.5: CÓMO TRABAJAMOS — Proceso de 4 etapas               -->
+        <!-- ================================================================ -->
+        <section class="process-section" aria-labelledby="process-heading">
+            <div class="process-container">
+
+                <div class="process-header">
+                    <span class="section-tag" aria-hidden="true">Nuestro proceso</span>
+                    <h2 id="process-heading">¿Cómo trabajamos?</h2>
+                    <p>Un proceso ágil, técnico y transparente — de la consulta a la garantía en 4 pasos.</p>
+                </div>
+
+                <div class="process-steps-row">
+
+                    <!-- Paso 1: Contacto inicial -->
+                    <article class="process-step-card">
+                        <div class="step-icon-ring">
+                            <svg viewBox="0 0 24 24" class="step-icon-svg" aria-hidden="true">
+                                <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.11-.74-.03-1.01.24l-2.2 2.2c-2.83-1.44-5.15-3.75-6.59-6.59l2.2-2.21c.28-.26.36-.68.25-1.04A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.59c0-.55-.45-1-1-1z"/>
+                            </svg>
+                        </div>
+                        <h3>Solicita</h3>
+                        <p>Contáctanos por WhatsApp, teléfono o formulario. Respondemos en menos de 24 horas hábiles.</p>
+                        <div class="step-benefit">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Respuesta en &lt; 24h
+                        </div>
+                    </article>
+
+                    <!-- Flecha conectora -->
+                    <div class="step-connector" aria-hidden="true">
+                        <svg viewBox="0 0 36 20" width="36" height="20" fill="none">
+                            <path d="M0 10h28M22 3l11 7-11 7" stroke="rgba(0,102,255,0.28)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                    <!-- Paso 2: Evaluación técnica -->
+                    <article class="process-step-card">
+                        <div class="step-icon-ring">
+                            <svg viewBox="0 0 24 24" class="step-icon-svg" aria-hidden="true">
+                                <path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5a6.5 6.5 0 1 0-6.5 6.5c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                            </svg>
+                        </div>
+                        <h3>Evaluamos</h3>
+                        <p>Realizamos una visita técnica en terreno sin costo para medir superficies y definir el polímero adecuado.</p>
+                        <div class="step-benefit">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Visita sin costo
+                        </div>
+                    </article>
+
+                    <!-- Flecha conectora -->
+                    <div class="step-connector" aria-hidden="true">
+                        <svg viewBox="0 0 36 20" width="36" height="20" fill="none">
+                            <path d="M0 10h28M22 3l11 7-11 7" stroke="rgba(0,102,255,0.28)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                    <!-- Paso 3: Aplicación profesional -->
+                    <article class="process-step-card">
+                        <div class="step-icon-ring">
+                            <svg viewBox="0 0 24 24" class="step-icon-svg" aria-hidden="true">
+                                <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/>
+                            </svg>
+                        </div>
+                        <h3>Aplicamos</h3>
+                        <p>Nuestro equipo especializado proyecta el polímero con reactores industriales de alta presión, garantizando cobertura uniforme.</p>
+                        <div class="step-benefit">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Equipo especializado
+                        </div>
+                    </article>
+
+                    <!-- Flecha conectora -->
+                    <div class="step-connector" aria-hidden="true">
+                        <svg viewBox="0 0 36 20" width="36" height="20" fill="none">
+                            <path d="M0 10h28M22 3l11 7-11 7" stroke="rgba(0,102,255,0.28)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                    <!-- Paso 4: Garantía por escrito -->
+                    <article class="process-step-card">
+                        <div class="step-icon-ring">
+                            <svg viewBox="0 0 24 24" class="step-icon-svg" aria-hidden="true">
+                                <path d="M12 2l-8 3v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-3zm-1.5 13L6 10.5l1.4-1.4 3.1 3.1 5.6-5.6 1.4 1.4-7 7z"/>
+                            </svg>
+                        </div>
+                        <h3>Garantizamos</h3>
+                        <p>Entregamos garantía extendida por escrito, respaldando adherencia, resistencia y estanqueidad ante la aplicación realizada.</p>
+                        <div class="step-benefit">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Garantía por escrito
+                        </div>
+                    </article>
+
+                </div><!-- fin .process-steps-row -->
+
+            </div><!-- fin .process-container -->
+        </section>
+
+        <!-- ================================================================ -->
+        <!-- SECCIÓN 3: SERVICIOS — Catálogo completo de 5 servicios           -->
+        <!-- ================================================================ -->
+        <section id="servicios" class="services-section" aria-labelledby="services-heading">
+            <div class="services-container">
+
+                <!-- Encabezado de sección con etiqueta contextual -->
+                <div class="services-header">
+                    <span class="section-tag" aria-hidden="true">Lo que hacemos</span>
+                    <h2 class="services-title" id="services-heading">Nuestros Servicios</h2>
+                    <p class="services-subtitle">
+                        Ofrecemos soluciones integrales para <strong>aislar temperatura</strong>, controlar humedad y sellar filtraciones en todo tipo de infraestructuras.
+                        Aplicamos poliuretano proyectado y poliurea pura con tecnología industrial en terreno, garantizando máxima resistencia,
+                        eficiencia energética y durabilidad en cada obra a lo largo de Chile.
+                    </p>
+                </div>
+
+                <!-- Grilla de tarjetas: al hacer clic el JS inyecta un mensaje en el formulario y baja la página -->
+                <div class="services-grid">
+
+                    <!-- Tarjeta 1: Aislamiento Térmico (celda cerrada = bloquea temperatura) -->
+                    <article class="service-card" role="button" tabindex="0" aria-label="Cotizar Aislamiento Térmico">
+                        <div class="card-image-wrapper">
+                            <img src="assets/images/WhatsApp-Image-2021-11-03-at-18.48.15-1.jpeg" alt="Trabajador de Aispoltec aplicando poliuretano proyectado en muros de estructura metálica" class="card-image" width="400" height="240">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Aislamiento Térmico</h3>
+                            <p>Proyección de <strong>espuma rígida de poliuretano de celda cerrada</strong> con conductividad térmica <strong>λ = 0,022–0,028 W/m·K</strong> — el valor más bajo de cualquier aislante rígido. Forma una barrera monolítica que elimina puentes térmicos, reduce hasta un <strong>40% el consumo de climatización</strong> y adhiere directamente sobre metal, hormigón y madera sin anclajes.</p>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta 2: Aislamiento Expansivo (inyección en espacios ocultos) -->
+                    <article class="service-card" role="button" tabindex="0" aria-label="Cotizar Aislamiento Expansivo">
+                        <div class="card-image-wrapper">
+                            <img src="assets/images/PHOTO-2021-11-16-21-57-14-3-576x1024.jpg" alt="Trabajador de Aispoltec inyectando poliuretano expansivo en tabiques de estructura metálica" class="card-image" width="400" height="240">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22a7 7 0 0 0 7-7c0-4.3-7-13-7-13S5 10.7 5 15a7 7 0 0 0 7 7z"/></svg>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Aislamiento Expansivo</h3>
+                            <p>Inyección controlada de <strong>poliuretano expandible de baja presión</strong> con ratio de expansión de hasta 30:1. Penetra y sella herméticamente grietas, cámaras de aire y espacios inaccesibles en <strong>techumbres, muros y tabiques</strong> sin demoler ni perforar superficies visibles. Densidad final: 8–15 kg/m³.</p>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta 3: Aislamiento Acústico (celda abierta = absorbe ondas sonoras) -->
+                    <article class="service-card" role="button" tabindex="0" aria-label="Cotizar Aislamiento Acústico">
+                        <div class="card-image-wrapper">
+                            <img src="assets/images/PHOTO-2021-11-16-21-59-10-1024x768.jpg" alt="Interior de recinto con muros y techo completamente aislados con espuma de poliuretano" class="card-image" width="400" height="240">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Aislamiento Acústico</h3>
+                            <p>Proyección de <strong>espuma flexible de poliuretano de celda abierta</strong> (NRC ≥ 0,80) que absorbe ondas sonoras en lugar de reflejarlas. A diferencia de la celda cerrada, su estructura porosa atrapa el sonido y elimina reverberación en <strong>galpones productivos, cabinas técnicas y recintos comerciales</strong> con vibraciones de maquinaria.</p>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta 4: Impermeabilización (poliurea pura = membrana continua) -->
+                    <article class="service-card" role="button" tabindex="0" aria-label="Cotizar Impermeabilización y Filtro UV">
+                        <div class="card-image-wrapper">
+                            <img src="assets/images/WhatsApp%20Image%202026-05-18%20at%207.59.12%20PM.jpeg" alt="Equipo de Aispoltec aplicando impermeabilizante en techumbre de edificio" class="card-image" width="400" height="240">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H7M19 11H5M16 17H8M12 2l4 4M12 2L8 6"/></svg>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Impermeabilización y Filtro UV</h3>
+                            <p>Aplicación de <strong>poliurea pura 100% sólidos</strong> a 65–80 °C con tiempo de gel de <strong>3 a 7 segundos</strong>. Genera una membrana monolítica sin juntas con elongación a la rotura <strong>≥ 400%</strong>, resistencia a tracción ≥ 12 MPa y rango de servicio de <strong>−50 °C a +130 °C</strong>. No emite COVs. Transitable en 30 minutos.</p>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta 5: Arriendo de Maquinaria (reactores de alta presión tipo Graco) -->
+                    <article class="service-card" role="button" tabindex="0" aria-label="Cotizar Arriendo de Maquinaria">
+                        <div class="card-image-wrapper">
+                            <img src="assets/images/Servicio5.jpg" alt="Reactor de alta presión Graco para arriendo en proyección de poliuretano" class="card-image" width="400" height="240">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Arriendo de Maquinaria</h3>
+                            <p>Arriendo por jornada de <strong>reactores de alta presión Graco Reactor</strong> (1.500–3.000 PSI, 60–80 °C) para proyección profesional de poliuretano y poliurea. Incluye <strong>supervisor técnico especializado en terreno</strong> para calibración de relaciones de mezcla, control de temperatura y resguardo de calidad de la aplicación.</p>
+                        </div>
+                    </article>
+
+                </div><!-- fin .services-grid -->
+
+                <!-- Bloque de estándares de trabajo — sin afirmaciones de certificación que no tenemos -->
+                <div class="certifications-block">
+                    <h4 class="certifications-title">Cómo trabajamos en cada proyecto</h4>
+                    <div class="certifications-grid">
+
+                        <!-- Estándar 1: Visita técnica sin costo -->
+                        <div class="cert-item">
+                            <div class="cert-link-wrapper">
+                                <div class="cert-icon-circle">
+                                    <svg viewBox="0 0 24 24" class="cert-svg" aria-hidden="true"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5a6.5 6.5 0 1 0-6.5 6.5c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                                </div>
+                            </div>
+                            <h5>Evaluación en Terreno</h5>
+                            <p>Visita técnica gratuita antes de cada proyecto</p>
+                        </div>
+
+                        <!-- Estándar 2: Garantía técnica escrita -->
+                        <div class="cert-item">
+                            <div class="cert-link-wrapper">
+                                <div class="cert-icon-circle">
+                                    <svg viewBox="0 0 24 24" class="cert-svg" aria-hidden="true"><path d="M17 3H7c-1.1 0-2 .9-2 2v16l7-3 7 3V5c0-1.1-.9-2-2-2z"/></svg>
+                                </div>
+                            </div>
+                            <h5>Garantía por Escrito</h5>
+                            <p>Certificado técnico entregado en cada obra</p>
+                        </div>
+
+                        <!-- Estándar 3: Operadores con formación técnica -->
+                        <div class="cert-item">
+                            <div class="cert-link-wrapper">
+                                <div class="cert-icon-circle">
+                                    <svg viewBox="0 0 24 24" class="cert-svg" aria-hidden="true"><path d="M12 2C8.5 3.5 5 4.5 4 5v6c0 5.5 3.5 10.5 8 12 4.5-1.5 8-6.5 8-12V5c-1-0.5-4.5-1.5-8-3zm-1.5 15l-3.5-3.5 1.4-1.4 2.1 2.1 5.6-5.6 1.4 1.4-7 7z"/></svg>
+                                </div>
+                            </div>
+                            <h5>Personal Capacitado</h5>
+                            <p>Operadores con formación técnica en polímeros</p>
+                        </div>
+
+                        <!-- Estándar 4: Materiales de proveedores reconocidos -->
+                        <div class="cert-item">
+                            <div class="cert-link-wrapper">
+                                <div class="cert-icon-circle">
+                                    <svg viewBox="0 0 24 24" class="cert-svg" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                                </div>
+                            </div>
+                            <h5>Insumos de Calidad</h5>
+                            <p>Polímeros adquiridos a proveedores reconocidos del rubro</p>
+                        </div>
+
+                    </div><!-- fin .certifications-grid -->
+                </div><!-- fin .certifications-block -->
+
+            </div><!-- fin .services-container -->
+        </section>
+
+        <!-- ================================================================ -->
+        <!-- SECCIÓN: CALCULADORA DE AHORRO ENERGÉTICO                         -->
+        <!-- ================================================================ -->
+        <section class="calculator-section" aria-labelledby="calc-heading">
+            <div class="calculator-container">
+
+                <div class="calculator-header">
+                    <span class="section-tag" aria-hidden="true">Herramienta gratuita</span>
+                    <h2 id="calc-heading">¿Cuánto puedes ahorrar?</h2>
+                    <p>Ingresa los datos de tu proyecto y calcula el ahorro estimado en climatización con aislamiento de poliuretano proyectado.</p>
+                </div>
+
+                <div class="calculator-card">
+
+                    <!-- Panel izquierdo: campos de entrada -->
+                    <div class="calc-inputs-panel">
+                        <h3>Datos del proyecto</h3>
+                        <form id="calcForm" novalidate>
+
+                            <div class="calc-field">
+                                <label for="calc-superficie">Superficie a aislar</label>
+                                <div class="calc-input-wrap">
+                                    <input type="number" id="calc-superficie" placeholder="Ej: 500" min="1" max="99999" required>
+                                    <span class="calc-suffix">m²</span>
+                                </div>
+                            </div>
+
+                            <div class="calc-field">
+                                <label for="calc-tipo">Tipo de espacio</label>
+                                <select id="calc-tipo">
+                                    <option value="galpon">Galpón / Nave Industrial</option>
+                                    <option value="bodega">Bodega / Espacio Comercial</option>
+                                    <option value="residencial">Residencial / Vivienda</option>
+                                    <option value="contenedor">Contenedor / Módulo</option>
+                                </select>
+                            </div>
+
+                            <div class="calc-field">
+                                <label for="calc-zona">Zona climática</label>
+                                <select id="calc-zona">
+                                    <option value="norte">Norte (Atacama / Antofagasta)</option>
+                                    <option value="centro" selected>Centro (Santiago / Valparaíso)</option>
+                                    <option value="sur">Sur (Araucanía / Los Lagos)</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="btn-calcular">Calcular mi ahorro →</button>
+
+                        </form>
+                    </div><!-- fin .calc-inputs-panel -->
+
+                    <!-- Panel derecho: resultados dinámicos -->
+                    <div class="calc-results-panel">
+                        <h3>Estimación de ahorro
+                            <span class="calc-currency-badge">Pesos Chilenos (CLP)</span>
+                        </h3>
+
+                        <!-- Placeholder antes de calcular -->
+                        <div class="calc-placeholder" id="calcPlaceholder">
+                            <div class="calc-placeholder-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" width="28" height="28">
+                                    <path fill="rgba(255,255,255,0.35)" d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                                </svg>
+                            </div>
+                            <p>Completa los datos y presiona <strong>"Calcular mi ahorro"</strong> para ver el estimado de tu proyecto.</p>
+                        </div>
+
+                        <!-- Resultados: JS lo muestra tras el cálculo -->
+                        <div class="calc-results-list" id="calcResults">
+
+                            <div class="calc-result-item">
+                                <div class="calc-result-label">Ahorro mensual estimado</div>
+                                <div class="calc-result-value result-green" id="res-mensual">—</div>
+                                <div class="calc-result-sub" id="res-mensual-uf">—</div>
+                            </div>
+
+                            <div class="calc-result-item">
+                                <div class="calc-result-label">Ahorro anual estimado</div>
+                                <div class="calc-result-value result-green" id="res-anual">—</div>
+                                <div class="calc-result-sub" id="res-anual-uf">—</div>
+                            </div>
+
+                            <div class="calc-result-item">
+                                <div class="calc-result-label">CO₂ evitado al año</div>
+                                <div class="calc-result-value result-blue" id="res-co2">—</div>
+                                <div class="calc-result-sub" id="res-co2-sub">kg de CO₂</div>
+                            </div>
+
+                            <div class="calc-result-item">
+                                <div class="calc-result-label">Retorno de inversión</div>
+                                <div class="calc-result-value" id="res-payback">—</div>
+                                <div class="calc-result-sub" id="res-payback-sub">años estimados</div>
+                            </div>
+
+                            <p class="calc-disclaimer-text">
+                                ⚠️ <strong>Estas son estimaciones aproximadas</strong> basadas en tarifas CNE 2025 ($ 118 CLP/kWh), auditorías energéticas CORFO y consumos típicos del sector. Los resultados reales dependen del estado actual del recinto, espesor aplicado y zona exacta.
+                                <strong>Solicita una evaluación técnica gratuita</strong> para obtener un cálculo preciso a tu medida.
+                            </p>
+
+                        </div><!-- fin #calcResults -->
+
+                    </div><!-- fin .calc-results-panel -->
+
+                </div><!-- fin .calculator-card -->
+
+            </div><!-- fin .calculator-container -->
+        </section>
+
+        <!-- ================================================================ -->
+        <!-- BANDA CTA INTERMEDIA — Llamada a la acción entre calculadora y    -->
+        <!-- nosotros para convertir al usuario que ya ve los números de ahorro -->
+        <!-- ================================================================ -->
+        <div class="cta-band" aria-hidden="true">
+            <div class="cta-band-inner">
+                <p><strong>¿Los números te convencen?</strong> Solicita tu visita técnica gratuita — un ingeniero evalúa tu proyecto en terreno sin costo ni compromiso.</p>
+                <a href="#contacto" class="cta-band-btn">Hablar con un técnico →</a>
+            </div>
+        </div>
+
+        <!-- ================================================================ -->
+        <!-- SECCIÓN 4: NOSOTROS — Diferencial competitivo y hito antártico   -->
+        <!-- ================================================================ -->
+        <section id="nosotros" class="about-section" aria-labelledby="about-heading">
+            <div class="about-container">
+
+                <!-- Columna izquierda: textos y lista de 3 diferenciales -->
+                <div class="about-content-side">
+                    <span class="section-tag" aria-hidden="true">Nuestra historia</span>
+                    <h2 id="about-heading">¿Por qué elegir Aispoltec?</h2>
+
+                    <!-- Párrafo líder: incluye el hito antártico como credencial de autoridad máxima -->
+                    <p class="about-lead-text">Nacimos de la convicción de que el aislamiento y la impermeabilización bien ejecutados cambian radicalmente el desempeño de una infraestructura. Con <strong>más de 15 años aplicando poliuretano y poliurea en todo Chile</strong> — desde la minería del norte grande hasta instalaciones en el territorio antártico a −50 °C — hemos construido un estándar técnico que pocas empresas del rubro igualan. Cada obra es una garantía firmada.</p>
+
+                    <!-- Lista de 3 diferenciales competitivos con íconos SVG -->
+                    <div class="about-features-list">
+
+                        <!-- Diferencial 1: Trayectoria de 15 años -->
+                        <div class="about-feature-item">
+                            <div class="feature-icon-wrapper" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" class="feature-svg"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Experiencia Comprobada</h3>
+                                <p>Más de <strong>15 años protegiendo proyectos complejos</strong> de alta exigencia en todo Chile, desde el norte grande hasta el territorio antártico.</p>
+                            </div>
+                        </div>
+
+                        <!-- Diferencial 2: Reactores de alta presión -->
+                        <div class="about-feature-item">
+                            <div class="feature-icon-wrapper" aria-hidden="true">
+                                <!-- Ícono de rayo para representar alta potencia tecnológica -->
+                                <svg viewBox="0 0 24 24" class="feature-svg"><path d="M7 2v11h3v9l7-12h-4l4-8z"/></svg>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Tecnología de Punta</h3>
+                                <p>Utilizamos <strong>reactores de alta presión</strong> y formulaciones avanzadas para un control exacto de dosificación y espesor en cada metro cuadrado aplicado.</p>
+                            </div>
+                        </div>
+
+                        <!-- Diferencial 3: Garantía extendida por escrito -->
+                        <div class="about-feature-item">
+                            <div class="feature-icon-wrapper" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" class="feature-svg"><path d="M12 2C7.58 2 4 5.58 4 10c0 3.23 1.92 6 4.67 7.22L7 22l5-1.5 5 1.5-1.67-4.78C18.08 16 20 13.23 20 10c0-4.42-3.58-8-8-8zm0 13c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/></svg>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Garantía de Calidad</h3>
+                                <p>Cada aplicación cuenta con el respaldo de una <strong>garantía extendida por escrito</strong>, avalando adherencia, resistencia y estanqueidad del trabajo ejecutado.</p>
+                            </div>
+                        </div>
+
+                    </div><!-- fin .about-features-list -->
+                </div><!-- fin .about-content-side -->
+
+                <!-- Columna derecha: carrusel fotográfico de obras reales -->
+                <div class="about-image-side">
+                    <div class="about-image-card" role="img" aria-label="Galería de obras reales de Aispoltec">
+                        <!-- 3 diapositivas en rotación CSS automática (mismo mecanismo que el hero) -->
+                        <div class="about-slide about-slide1"></div>
+                        <div class="about-slide about-slide2"></div>
+                        <div class="about-slide about-slide3"></div>
+                        <!-- Badge flotante de credibilidad sobre la fotografía -->
+                        <div class="about-image-badge" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            <span>Operativo en todo Chile</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- fin .about-container -->
+        </section>
+
+        <!-- ================================================================ -->
+        <!-- SECCIÓN 5: PROYECTOS — Portafolio antes/después + galería         -->
+        <!-- ================================================================ -->
+        <section id="proyectos" class="results-section" aria-labelledby="results-heading">
+            <div class="results-container">
+
+                <!-- Encabezado de la sección de proyectos -->
+                <div class="results-header">
+                    <span class="section-tag" aria-hidden="true">Evidencia real</span>
+                    <h2 id="results-heading">Resultados Comprobados</h2>
+                    <p>La diferencia es visible. Presiona cualquier imagen para ver el caso de éxito detallado a pantalla completa.</p>
+                </div>
+
+                <!-- Grilla de 2 tarjetas de comparación antes/después -->
+                <div class="results-grid">
+
+                    <!-- Tarjeta 1: Aislamiento Térmico Expansivo -->
+                    <div class="result-card">
+                        <!-- Slider interactivo: arrastra el divisor para revelar el antes/después -->
+                        <div class="img-comp-slider" role="img" aria-label="Comparación: proceso de aplicación vs resultado final de aislamiento térmico">
+                            <!-- Imagen base: "proceso" (siempre visible debajo) -->
+                            <div class="comp-before">
+                                <img src="assets/images/Trabajo7.png" alt="Proceso de aplicación de aislamiento térmico con poliuretano" loading="lazy">
+                                <span class="comp-badge comp-badge-before">Proceso</span>
+                            </div>
+                            <!-- Imagen encima: "resultado" (recortada por clip-path que JS actualiza) -->
+                            <div class="comp-after">
+                                <img src="assets/images/Trabajo8.png" alt="Resultado final de aislamiento térmico expansivo con poliuretano" loading="lazy">
+                                <span class="comp-badge comp-badge-after">Resultado</span>
+                            </div>
+                            <!-- Handle central deslizable -->
+                            <div class="comp-handle">
+                                <div class="comp-handle-line"></div>
+                                <button class="comp-handle-btn" aria-label="Arrastra para comparar antes y después">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true">
+                                        <path d="M8 9l-4 3 4 3M16 9l4 3-4 3" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <span class="comp-drag-hint" aria-hidden="true">← Arrastra para comparar →</span>
+                        </div>
+                        <div class="result-card-content">
+                            <h3>Aislamiento Térmico Expansivo</h3>
+                            <p>Aplicación de <strong>poliuretano proyectado de alta densidad</strong>. Elimina puentes térmicos, sella fisuras y garantiza control de temperatura en techumbres y muros.</p>
+                        </div>
+                    </div><!-- fin result-card 1 -->
+
+                    <!-- Tarjeta 2: Impermeabilización de Poliurea -->
+                    <div class="result-card">
+                        <!-- Slider interactivo: arrastra el divisor para revelar el antes/después -->
+                        <div class="img-comp-slider" role="img" aria-label="Comparación: cubierta con grietas antes vs membrana de poliurea después">
+                            <div class="comp-before">
+                                <img src="assets/images/Trabajo9.png" alt="Cubierta dañada con grietas antes de la impermeabilización" loading="lazy">
+                                <span class="comp-badge comp-badge-before">Antes</span>
+                            </div>
+                            <div class="comp-after">
+                                <img src="assets/images/Trabajo10.png" alt="Membrana de poliurea pura aplicada sobre losa de hormigón" loading="lazy">
+                                <span class="comp-badge comp-badge-after">Después</span>
+                            </div>
+                            <div class="comp-handle">
+                                <div class="comp-handle-line"></div>
+                                <button class="comp-handle-btn" aria-label="Arrastra para comparar antes y después">
+                                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true">
+                                        <path d="M8 9l-4 3 4 3M16 9l4 3-4 3" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <span class="comp-drag-hint" aria-hidden="true">← Arrastra para comparar →</span>
+                        </div>
+                        <div class="result-card-content">
+                            <h3>Impermeabilización de Poliurea</h3>
+                            <p>Membrana elástica continua de alta resistencia que soporta <strong>agua estancada, tránsito pesado y radiación UV extrema</strong> con mantenimiento adecuado.</p>
+                        </div>
+                    </div><!-- fin result-card 2 -->
+
+                </div><!-- fin .results-grid -->
+            </div><!-- fin .results-container -->
+
+            <!-- ============================================================= -->
+            <!-- VENTANA MODAL CINEMÁTICA — se abre al hacer clic en fotos      -->
+            <!-- JS gestiona la clase 'modal-active' para mostrar u ocultar     -->
+            <!-- ============================================================= -->
+            <div id="resultModal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+                <div class="modal-wrapper">
+                    <div class="modal-body-layout">
+
+                        <!-- Imagen del proyecto: ocupa el lado izquierdo -->
+                        <div class="modal-img-container">
+                            <img id="modalImg" src="" alt="Caso de obra ampliado - Aispoltec">
+                        </div>
+
+                        <!-- Panel de información: lado derecho -->
+                        <div class="modal-info-panel">
+
+                            <!-- Header: chip + botón cerrar -->
+                            <div class="modal-info-header">
+                                <span class="modal-project-badge">
+                                    <svg viewBox="0 0 24 24" width="11" height="11" fill="currentColor" aria-hidden="true"><path d="M12 2l-8 3v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+                                    Proyecto Aispoltec
+                                </span>
+                                <button class="modal-close-btn" aria-label="Cerrar ventana">
+                                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
+                                        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                                    </svg>
+                                </button>
+                            </div>
+
+                            <!-- Título y descripción (inyectados por JS) -->
+                            <div class="modal-info-body">
+                                <!-- Chip de categoría: JS lo puebla con data-tag del gallery-item -->
+                                <div class="modal-tag-row" id="modalTagRow"></div>
+                                <h3 id="modalTitle"></h3>
+                                <p id="modalDescription"></p>
+                            </div>
+
+                            <!-- Botón CTA -->
+                            <div class="modal-info-footer">
+                                <a href="#contacto" class="modal-cta-btn" onclick="cerrarModal()">
+                                    Solicitar evaluación gratuita
+                                    <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                                </a>
+                            </div>
+
+                        </div><!-- fin .modal-info-panel -->
+
+                    </div><!-- fin .modal-body-layout -->
+                </div><!-- fin .modal-wrapper -->
+            </div><!-- fin #resultModal -->
+
+            <!-- ============================================================= -->
+            <!-- MINI-GALERÍA DE PROYECTOS REALIZADOS (12 fotos cuadradas 3x4) -->
+            <!-- ============================================================= -->
+            <div class="gallery-block">
+                <div class="gallery-header">
+                    <span class="section-tag" aria-hidden="true">Portafolio</span>
+                    <h2>Proyectos Realizados</h2>
+                    <p>Desde <strong>aislamiento térmico de galpones y cámaras frigoríficas</strong> hasta <strong>impermeabilización de azoteas y techumbres metálicas</strong> — obras reales en todo Chile que demuestran que aislar temperatura, controlar humedad y sellar filtraciones es una inversión de largo plazo.</p>
+                </div>
+
+                <!-- Franja de métricas rápidas: da contexto antes de ver las fotos -->
+                <div class="gallery-metrics-strip" aria-hidden="true">
+                    <div class="gallery-metric">
+                        <span class="gm-num">Cientos</span>
+                        <span class="gm-label">de proyectos en Chile</span>
+                    </div>
+                    <div class="gallery-metric-sep"></div>
+                    <div class="gallery-metric">
+                        <span class="gm-num">4</span>
+                        <span class="gm-label">tipos de aplicación</span>
+                    </div>
+                    <div class="gallery-metric-sep"></div>
+                    <div class="gallery-metric">
+                        <span class="gm-num">Todo Chile</span>
+                        <span class="gm-label">Atacama · Santiago · Antártica</span>
+                    </div>
+                </div>
+
+                <!-- Cada tarjeta lleva atributos data-img/title/desc que el JS lee para la modal -->
+                <div class="gallery-grid">
+
+                    <div class="gallery-item" data-img="assets/images/Trabajo11.png" data-title="Aislamiento de Muros y Tabiquerías" data-desc="Aplicación de espuma de poliuretano proyectado en tabiques perimetrales con estructura de acero galvanizado. Elimina puentes térmicos en perfiles." data-tag="Aislamiento Térmico" role="button" tabindex="0" aria-label="Ver proyecto: Aislamiento de Muros">
+                        <img src="assets/images/Trabajo11.png" alt="Aislamiento de muros perimetrales con espuma de poliuretano" loading="lazy" width="300" height="300">
+                    </div>
+
+                    <div class="gallery-item" data-img="assets/images/Trabajo12.png" data-title="Aislamiento de Camiones y Contenedores" data-desc="Espuma de poliuretano en carrocería interna de vehículo de carga. Transforma la estructura en unidad térmica eficiente para la cadena de frío." data-tag="Cadena de Frío" role="button" tabindex="0" aria-label="Ver proyecto: Aislamiento de Camiones">
+                        <img src="assets/images/Trabajo12.png" alt="Aislamiento térmico interior de camión frigorífico con poliuretano" loading="lazy" width="300" height="300">
+                    </div>
+
+                    <div class="gallery-item" data-img="assets/images/Trabajo13.png" data-title="Aislamiento de Estanques Industriales" data-desc="Revestimiento térmico exterior de estanques cilíndricos de gran volumen para control crítico de temperatura de fluidos en almacenamiento industrial." data-tag="Protección Industrial" role="button" tabindex="0" aria-label="Ver proyecto: Aislamiento de Estanques">
+                        <img src="assets/images/Trabajo13.png" alt="Aislamiento térmico de estanques industriales de gran volumen" loading="lazy" width="300" height="300">
+                    </div>
+
+                    <div class="gallery-item" data-img="assets/images/Trabajo14.png" data-title="Aislamiento de Módulos y Containers" data-desc="Proyección en muros de contenedores marítimos. Elimina transmitancia térmica del metal y previene condensación garantizando eficiencia energética." data-tag="Aislamiento Expansivo" role="button" tabindex="0" aria-label="Ver proyecto: Aislamiento de Containers">
+                        <img src="assets/images/Trabajo14.png" alt="Aislamiento de casa contenedor con espuma de poliuretano" loading="lazy" width="300" height="300">
+                    </div>
+
+                    <div class="gallery-item" data-img="assets/images/Trabajo15.png" data-title="Aislamiento Exterior de Techumbres Metálicas" data-desc="Sello térmico exterior en cubierta de contenedor. Barrera monolítica que elimina puentes térmicos solares y previene filtraciones." data-tag="Aislamiento Exterior" role="button" tabindex="0" aria-label="Ver proyecto: Aislamiento de Techo">
+                        <img src="assets/images/Trabajo15.png" alt="Aislamiento exterior de techo de contenedor con poliuretano" loading="lazy" width="300" height="300">
+                    </div>
+
+                    <div class="gallery-item" data-img="assets/images/Trabajo16.jpeg" data-title="Eficiencia Energética Residencial" data-desc="Revestimiento termoacústico completo en muros interiores. Optimiza climatización del hogar y aísla ruidos externos." data-tag="Termoacústico" role="button" tabindex="0" aria-label="Ver proyecto: Aislamiento Residencial">
+                        <img src="assets/images/Trabajo16.jpeg" alt="Aislamiento termoacústico residencial con poliuretano proyectado" loading="lazy" width="300" height="300">
+                    </div>
+
+                    <div class="gallery-item" data-img="assets/images/Trabajo17.jpeg" data-title="Impermeabilización Definitiva de Azoteas" data-desc="Acabado con poliurea pura en losa de hormigón. Superficie transitable de alta resistencia sin uniones, soporta estancamiento de agua con alta durabilidad." data-tag="Impermeabilización" role="button" tabindex="0" aria-label="Ver proyecto: Impermeabilización de Azotea">
+                        <img src="assets/images/Trabajo17.jpeg" alt="Azotea impermeabilizada con membrana de poliurea pura" loading="lazy" width="300" height="300">
+                    </div>
+
+                    <div class="gallery-item" data-img="assets/images/Trabajo18.jpeg" data-title="Protección de Cubiertas Técnicas" data-desc="Poliurea en azoteas de alta exigencia operacional. Sella bases de equipos industriales y sistemas de climatización." data-tag="Cubierta Técnica" role="button" tabindex="0" aria-label="Ver proyecto: Cubiertas Técnicas">
+                        <img src="assets/images/Trabajo18.jpeg" alt="Impermeabilización de cubierta corporativa técnica con poliurea" loading="lazy" width="300" height="300">
+                    </div>
+
+                    <div class="gallery-item" data-img="assets/images/Trabajo19.jpg" data-title="Techumbres de Alta Complejidad" data-desc="Poliuretano rígido en bajo-cubierta angular. Sello continuo que evita condensación y bloquea radiación solar directa en perfiles aéreos." data-tag="Techumbre Compleja" role="button" tabindex="0" aria-label="Ver proyecto: Techumbres Angulares">
+                        <img src="assets/images/Trabajo19.jpg" alt="Aislamiento de techumbre angular de alta complejidad" loading="lazy" width="300" height="300">
+                    </div>
+
+                    <!-- Foto de la Antártica: hito de credibilidad máximo, se destaca con badge especial -->
+                    <div class="gallery-item gallery-item-featured" data-img="assets/images/Trabajo20.png" data-title="Impermeabilización en Climas Extremos (Antártica)" data-desc="Membrana de poliurea de alta visibilidad sobre cubiertas metálicas en territorio antártico. Diseñada para resistir congelamiento, corrosión salina severa y vientos polares extremos." data-tag="Clima Extremo · Antártica" role="button" tabindex="0" aria-label="Ver proyecto: Impermeabilización en la Antártica">
+                        <img src="assets/images/Trabajo20.png" alt="Impermeabilización con poliurea en el territorio antártico de Chile" loading="lazy" width="300" height="300">
+                        <!-- Etiqueta flotante exclusiva para este hito de máxima credibilidad -->
+                        <div class="gallery-item-badge" aria-hidden="true">Antártica</div>
+                    </div>
+
+                    <div class="gallery-item" data-img="assets/images/Trabajo21.png" data-title="Aislamiento de Piping y Líneas de Fluidos" data-desc="Inyección de poliuretano de alta densidad en uniones de tuberías industriales con protección de chaqueta metálica para control de temperatura." data-tag="Piping Industrial" role="button" tabindex="0" aria-label="Ver proyecto: Aislamiento de Tuberías">
+                        <img src="assets/images/Trabajo21.png" alt="Aislamiento de tuberías y piping industrial con poliuretano" loading="lazy" width="300" height="300">
+                    </div>
+
+                </div><!-- fin .gallery-grid -->
+
+                <!-- CTA a redes sociales para ver más proyectos -->
+                <div class="social-cta-block">
+                    <h3>¿Quieres ver más proyectos?</h3>
+                    <p>Visítanos en nuestras redes sociales y conoce nuestro portafolio actualizado en tiempo real a lo largo de Chile.</p>
+                    <div class="social-buttons-container">
+
+                        <!-- Instagram de Aispoltec -->
+                        <a href="https://www.instagram.com/aispoltec.cl/" target="_blank" rel="noopener noreferrer" class="social-btn btn-instagram" aria-label="Visitar Instagram de Aispoltec">
+                            <svg viewBox="0 0 24 24" class="social-icon-svg" aria-hidden="true"><path fill="#ffffff" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                            <span>Instagram</span>
+                        </a>
+
+                        <!-- Facebook de Aispoltec -->
+                        <a href="https://www.facebook.com/aispoltec.cl/" target="_blank" rel="noopener noreferrer" class="social-btn btn-facebook" aria-label="Visitar Facebook de Aispoltec">
+                            <svg viewBox="0 0 24 24" class="social-icon-svg" aria-hidden="true"><path fill="#ffffff" d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            <span>Facebook</span>
+                        </a>
+
+                        <!-- TikTok de Aispoltec -->
+                        <a href="https://www.tiktok.com/@aispoltec.cl6" target="_blank" rel="noopener noreferrer" class="social-btn btn-tiktok" aria-label="Visitar TikTok de Aispoltec">
+                            <svg viewBox="0 0 24 24" class="social-icon-svg" aria-hidden="true"><path fill="#ffffff" d="M12.525.02c1.31.01 2.61.01 3.91.02.08 1.53.63 3.01 1.63 4.15 1.14 1.25 2.76 1.99 4.44 2.15v3.9c-1.4-.04-2.78-.49-3.95-1.3-.64-.46-1.2-1.02-1.65-1.67v6.62c0 1.54-.37 3.06-1.07 4.4-1.34 2.53-4.06 4.08-6.91 3.92-3.15-.15-5.91-2.45-6.52-5.54-.77-3.84 1.73-7.55 5.58-8.29.5-.1 1.01-.13 1.52-.1v3.91c-.34-.05-.69-.04-1.03.01-1.74.27-3.01 1.85-2.85 3.6.14 1.56 1.37 2.8 2.93 2.91 1.78.14 3.32-1.12 3.47-2.9.02-.23.02-.47.02-.7V0z"/></svg>
+                            <span>TikTok</span>
+                        </a>
+
+                    </div>
+                </div><!-- fin .social-cta-block -->
+
+            </div><!-- fin .gallery-block -->
+
+            <!-- ============================================================= -->
+            <!-- ACORDEÓN DE PREGUNTAS FRECUENTES                               -->
+            <!-- ============================================================= -->
+            <div class="faq-block">
+                <div class="faq-header">
+                    <span class="section-tag" aria-hidden="true">FAQ</span>
+                    <h2>Preguntas Frecuentes</h2>
+                    <p>Respondemos las dudas más comunes sobre aislamiento con poliuretano e impermeabilización con poliurea.</p>
+                </div>
+
+                <!-- JS gestiona la apertura/cierre con max-height y aria-expanded -->
+                <div class="faq-accordion-container">
+
+                    <!-- Pregunta 1: diferencia entre polímeros -->
+                    <div class="faq-item">
+                        <button class="faq-question-trigger" aria-expanded="false" aria-controls="faq-answer-1">
+                            <h3>¿Cuál es la diferencia entre el poliuretano y la poliurea?</h3>
+                            <svg viewBox="0 0 24 24" class="faq-arrow-icon" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+                        </button>
+                        <div class="faq-answer-content" id="faq-answer-1">
+                            <div class="faq-answer-inner">
+                                <p>Ambos son polímeros de dos componentes que reaccionan al mezclarlos, pero tienen química y propósitos distintos. El <strong>poliuretano</strong> (poliol + isocianato) se expande al aplicarse formando una espuma rígida o flexible ideal para <strong>aislamiento térmico y acústico</strong>. La <strong>poliurea</strong> (poliamina + isocianato) reacciona en 3–7 segundos formando un elastómero denso, impermeable y de altísima resistencia mecánica, usado para <strong>impermeabilización y protección de superficies</strong>. En resumen: el poliuretano <em>insula</em>, la poliurea <em>impermeabiliza y protege</em>.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pregunta 2: tiempo de aplicación -->
+                    <div class="faq-item">
+                        <button class="faq-question-trigger" aria-expanded="false" aria-controls="faq-answer-2">
+                            <h3>¿Cuánto tiempo toma el proceso de aplicación y secado?</h3>
+                            <svg viewBox="0 0 24 24" class="faq-arrow-icon" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+                        </button>
+                        <div class="faq-answer-content" id="faq-answer-2">
+                            <div class="faq-answer-inner">
+                                <p>La reacción química es casi instantánea: el poliuretano y la poliurea alcanzan tiempo de gel entre <strong>5 y 15 segundos</strong> al salir de la pistola. Las superficies son transitables en <strong>30 a 60 minutos</strong> y alcanzan propiedades mecánicas completas a las 24 horas. Un equipo de dos operarios puede aplicar <strong>100 a 250 m²/día</strong> según el espesor y la complejidad de la geometría. Las obras de gran envergadura se ejecutan por sectores sin paralizar la operación completa.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pregunta 3: garantía -->
+                    <div class="faq-item">
+                        <button class="faq-question-trigger" aria-expanded="false" aria-controls="faq-answer-3">
+                            <h3>¿Qué garantía ofrecen en sus servicios?</h3>
+                            <svg viewBox="0 0 24 24" class="faq-arrow-icon" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+                        </button>
+                        <div class="faq-answer-content" id="faq-answer-3">
+                            <div class="faq-answer-inner">
+                                <p>Todos los proyectos incluyen un <strong>certificado de garantía técnica por escrito</strong> que cubre: adherencia (≥ 1,5 MPa en ensayo pull-off), espesor de aplicación (≥ al especificado), y estanqueidad ante filtraciones. La garantía es exigible ante fallas de adherencia, delaminación o pérdida de estanqueidad atribuibles a la aplicación, no a daños mecánicos posteriores. Adicionalmente, entregamos un <strong>informe técnico de obra</strong> con fotografías y mediciones de control de calidad.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pregunta 4: cobertura geográfica -->
+                    <div class="faq-item">
+                        <button class="faq-question-trigger" aria-expanded="false" aria-controls="faq-answer-4">
+                            <h3>¿Realizan trabajos en todo Chile?</h3>
+                            <svg viewBox="0 0 24 24" class="faq-arrow-icon" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+                        </button>
+                        <div class="faq-answer-content" id="faq-answer-4">
+                            <div class="faq-answer-inner">
+                                <p>Sí. Contamos con capacidad técnica y logística para trasladar equipos reactores a cualquier región. Tenemos <strong>operativa real desde el norte grande hasta el territorio antártico</strong>, atendiendo proyectos residenciales, comerciales, agrícolas, mineros e industriales.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pregunta 5: cálculo de cotización -->
+                    <div class="faq-item">
+                        <button class="faq-question-trigger" aria-expanded="false" aria-controls="faq-answer-5">
+                            <h3>¿Cómo se calcula el valor de una cotización?</h3>
+                            <svg viewBox="0 0 24 24" class="faq-arrow-icon" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+                        </button>
+                        <div class="faq-answer-content" id="faq-answer-5">
+                            <div class="faq-answer-inner">
+                                <p>El precio se establece <strong>por metro cuadrado ($/m²)</strong> y varía según cuatro factores: (1) <strong>tipo de polímero</strong> (aislamiento o impermeabilización), (2) <strong>espesor requerido</strong> en milímetros según normativa o especificación técnica, (3) <strong>preparación de superficie</strong> (limpieza, primer, sandblasting), y (4) <strong>accesibilidad y logística</strong> según la región. El uso de la calculadora en esta página entrega un estimado referencial. Para un presupuesto exacto, solicitamos una <strong>visita técnica gratuita en terreno</strong>.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pregunta 6: seguridad de los materiales -->
+                    <div class="faq-item">
+                        <button class="faq-question-trigger" aria-expanded="false" aria-controls="faq-answer-6">
+                            <h3>¿Estos materiales son seguros para la salud y el entorno?</h3>
+                            <svg viewBox="0 0 24 24" class="faq-arrow-icon" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+                        </button>
+                        <div class="faq-answer-content" id="faq-answer-6">
+                            <div class="faq-answer-inner">
+                                <p>Sí. Una vez que la reacción química se completa (cura completa a las 24 h), los polímeros son <strong>100% sólidos, inertes y químicamente estables</strong>: no emiten COVs, solventes ni gases. Existen formulaciones de poliurea pura compatibles con el <strong>almacenamiento de agua potable y productos alimentarios</strong>, según las especificaciones técnicas de sus fabricantes — la selección del producto adecuado para cada uso se informa en la ficha técnica de la obra. La fase de aplicación requiere ventilación adecuada y EPP por el aerosol generado: nuestros operarios trabajan con equipos de protección respiratoria de nivel P3.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- fin .faq-accordion-container -->
+            </div><!-- fin .faq-block -->
+
+            <!-- BLOQUE DE COMPROMISO TÉCNICO (reemplaza reseñas genéricas) -->
+            <div class="commitment-block">
+                <div class="commitment-header">
+                    <span class="section-tag" aria-hidden="true">Nuestros valores</span>
+                    <h2>Nuestro Compromiso Técnico</h2>
+                    <p>Garantizamos los más altos estándares de calidad y seguridad en cada aplicación a lo largo de Chile.</p>
+                </div>
+                <div class="commitment-grid">
+
+                    <!-- Compromiso 1: Calidad de materiales -->
+                    <article class="commitment-card">
+                        <div class="commitment-icon-wrapper" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" class="commitment-svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.47 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                        </div>
+                        <h3>Materiales de Alta Pureza</h3>
+                        <p>Formulaciones de <strong>poliuretano y poliurea pura certificada</strong> aplicadas bajo estrictas normas, asegurando <strong>máxima elasticidad, adherencia y resistencia</strong> ante el desgaste climático.</p>
+                    </article>
+
+                    <!-- Compromiso 2: Eficiencia logística -->
+                    <article class="commitment-card">
+                        <div class="commitment-icon-wrapper" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" class="commitment-svg"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm12 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm2-6.5h-3V9h3v3z"/></svg>
+                        </div>
+                        <h3>Eficiencia y Puntualidad</h3>
+                        <p>Trasladamos <strong>reactores industriales a cualquier región</strong> del país, asegurando <strong>ejecución ágil y coordinada</strong> que respeta rigurosamente los plazos de obra.</p>
+                    </article>
+
+                    <!-- Compromiso 3: Post-venta y soporte -->
+                    <article class="commitment-card">
+                        <div class="commitment-icon-wrapper" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" class="commitment-svg"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
+                        </div>
+                        <h3>Soporte y Post-Venta</h3>
+                        <p>Nuestro compromiso va más allá de la aplicación. Entregamos <strong>asistencia post-aplicación continua</strong> y control de calidad para garantizar un <strong>sellado hermético de alta durabilidad</strong>.</p>
+                    </article>
+
+                </div><!-- fin .commitment-grid -->
+            </div><!-- fin .commitment-block -->
+
+        </section><!-- fin #proyectos -->
+
+        <!-- ================================================================ -->
+        <!-- SECCIÓN: RESEÑAS — Invita a clientes reales a compartir su opinión -->
+        <!-- ================================================================ -->
+        <section class="testimonials-section" aria-labelledby="testimonials-heading">
+            <div class="testimonials-container">
+
+                <div class="testimonials-header">
+                    <h2 id="testimonials-heading">¿Trabajaste con nosotros?</h2>
+                </div>
+
+                <!-- Invitación honesta a dejar reseñas reales en lugar de testimonios ficticios -->
+                <div class="reviews-invite-grid">
+
+                    <article class="review-invite-card">
+                        <div class="review-invite-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        </div>
+                        <h3>Reseñas de clientes reales</h3>
+                        <p>Trabajamos con empresas y personas en todo Chile. Si eres cliente de Aispoltec, te invitamos a compartir tu experiencia en Google — es la forma más transparente de mostrar nuestro trabajo.</p>
+                        <a href="https://g.page/r/aispoltec/review" target="_blank" rel="noopener noreferrer" class="review-invite-btn">
+                            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M21.35 11.1H12.18V13.83H18.69C18.36 17.64 15.19 19.27 12.19 19.27C8.36 19.27 5 16.25 5 12C5 7.9 8.2 4.73 12.2 4.73C15.29 4.73 17.1 6.7 17.1 6.7L19 4.72C19 4.72 16.56 2 12.1 2C6.42 2 2.03 6.8 2.03 12C2.03 17.05 6.16 22 12.39 22C17.6 22 21.96 18.33 21.96 12.33C21.96 11.76 21.89 11.43 21.35 11.1Z"/></svg>
+                            Dejar reseña en Google
+                        </a>
+                    </article>
+
+                    <article class="review-invite-card">
+                        <div class="review-invite-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M17 12h-5v5h5v-5zM16 1v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-1V1h-2zm3 18H5V8h14v11z"/></svg>
+                        </div>
+                        <h3>Más de 15 años de experiencia</h3>
+                        <p>Nuestro equipo acumula más de 15 años de experiencia aplicando poliuretano y poliurea en proyectos residenciales, comerciales e industriales a lo largo de Chile. Cada obra habla por sí sola.</p>
+                        <a href="#proyectos" class="review-invite-btn review-invite-btn-secondary">
+                            Ver galería de proyectos
+                        </a>
+                    </article>
+
+                    <article class="review-invite-card">
+                        <div class="review-invite-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/></svg>
+                        </div>
+                        <h3>Cuéntanos tu proyecto</h3>
+                        <p>Cada proyecto es distinto. Contáctanos para conversar sobre tu necesidad de aislamiento o impermeabilización — hacemos una evaluación técnica gratuita antes de cualquier compromiso.</p>
+                        <a href="#contacto" class="review-invite-btn review-invite-btn-secondary">
+                            Solicitar evaluación gratuita
+                        </a>
+                    </article>
+
+                </div><!-- fin .reviews-invite-grid -->
+
+            </div><!-- fin .testimonials-container -->
+        </section>
+
+        <!-- ================================================================ -->
+        <!-- SECCIÓN 6: CONTACTO — Formulario de evaluación gratuita           -->
+        <!-- ================================================================ -->
+        <section id="contacto" class="contact-section" aria-labelledby="contact-heading">
+            <div class="contact-container">
+
+                <!-- Columna izquierda: información de contacto y canales directos -->
+                <div class="contact-info-side">
+                    <span class="section-tag section-tag-light" aria-hidden="true">Hablemos</span>
+                    <h2 id="contact-heading">Evaluación Gratuita</h2>
+                    <p class="contact-subtitle">¿Tienes un proyecto de aislamiento o impermeabilización? Nuestro equipo de ingenieros está listo para asesorarte. Coordinamos una <strong>evaluación técnica en terreno sin costo ni compromiso</strong>.</p>
+
+                    <div class="contact-channels-list">
+
+                        <!-- Canal: Teléfono -->
+                        <div class="channel-item">
+                            <div class="channel-icon-wrapper" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" class="channel-svg"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 0 0-1.01.24l-2.2 2.2c-2.83-1.44-5.15-3.75-6.59-6.59l2.2-2.21c.28-.26.36-.68.25-1.04A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.59c0-.55-.45-1-1-1z"/></svg>
+                            </div>
+                            <div class="channel-text">
+                                <span>Teléfono</span>
+                                <a href="tel:+56979679866">+56 9 7967 9866</a>
+                            </div>
+                        </div>
+
+                        <!-- Canal: Email corporativo -->
+                        <div class="channel-item">
+                            <div class="channel-icon-wrapper" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" class="channel-svg"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                            </div>
+                            <div class="channel-text">
+                                <span>Email</span>
+                                <a href="mailto:aispoltec@gmail.com">aispoltec@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <!-- Canal: Ubicación geográfica -->
+                        <div class="channel-item">
+                            <div class="channel-icon-wrapper" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" class="channel-svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                            </div>
+                            <div class="channel-text">
+                                <span>Cobertura</span>
+                                <p>Todo Chile · Desde Atacama hasta la Antártica</p>
+                            </div>
+                        </div>
+
+                    </div><!-- fin .contact-channels-list -->
+
+                    <!-- Checklist: qué incluye la evaluación gratuita -->
+                    <div class="contact-includes">
+                        <p class="contact-includes-title">La evaluación incluye:</p>
+                        <ul class="contact-includes-list">
+                            <li>
+                                <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                Visita técnica en terreno sin costo
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                Medición de superficies y diagnóstico del estado actual
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                Recomendación técnica del polímero más adecuado
+                            </li>
+                            <li>
+                                <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                                Presupuesto detallado por escrito sin compromiso
+                            </li>
+                        </ul>
+                    </div>
+
+                </div><!-- fin .contact-info-side -->
+
+                <!-- Columna derecha: formulario con backend Formspree -->
+                <div class="contact-form-side">
+                    <!--
+                        FORMULARIO DE CONTACTO
+                        Backend: Formspree (formspree.io) — recibe el POST y envía email sin servidor propio
+                        Validación: Doble capa — JS en cliente + Formspree en servidor
+                        Anti-spam: Campo honeypot oculto (_gotcha) — los bots lo llenan, los humanos no lo ven
+                        ⚠️ Actualizar el action= con el endpoint de Formspree correcto si cambia
+                    -->
+                    <form class="contact-card-form"
+                          id="aispoltecForm"
+                          action="https://formspree.io/f/xdavkgqr"
+                          method="POST"
+                          novalidate>
+
+                        <!-- HONEYPOT ANTI-SPAM: trampa oculta para bots de spam -->
+                        <!-- Los bots llenan todos los campos; si este campo llega con datos, Formspree lo descarta automáticamente -->
+                        <div style="display:none !important;visibility:hidden;position:absolute;height:0;overflow:hidden;" aria-hidden="true">
+                            <label for="_gotcha">No completar si eres humano</label>
+                            <input type="text" id="_gotcha" name="_gotcha" tabindex="-1" autocomplete="off">
+                        </div>
+
+                        <!-- Campo oculto: define el asunto del email que Aispoltec recibirá en su bandeja -->
+                        <input type="hidden" name="_subject" value="Nueva consulta técnica desde aispoltec.cl">
+
+                        <!-- Campo: Nombre completo -->
+                        <div class="form-group">
+                            <label for="form-name">Nombre completo <span class="required-mark" aria-hidden="true">*</span></label>
+                            <input type="text"
+                                   id="form-name"
+                                   name="name"
+                                   placeholder="Ej: Juan Pérez González"
+                                   required
+                                   autocomplete="name"
+                                   minlength="3"
+                                   maxlength="80">
+                            <!-- El JS inyecta el mensaje de error aquí cuando la validación falla -->
+                            <span class="error-msg" id="nameError" role="alert" aria-live="polite"></span>
+                        </div>
+
+                        <!-- Campo: Correo electrónico -->
+                        <div class="form-group">
+                            <label for="form-email">Correo electrónico <span class="required-mark" aria-hidden="true">*</span></label>
+                            <input type="email"
+                                   id="form-email"
+                                   name="email"
+                                   placeholder="tu@empresa.com"
+                                   required
+                                   autocomplete="email">
+                            <span class="error-msg" id="emailError" role="alert" aria-live="polite"></span>
+                        </div>
+
+                        <!-- Campo: Teléfono con validación de formato chileno (9 dígitos) en el JS -->
+                        <div class="form-group">
+                            <label for="form-phone">Teléfono <span class="required-mark" aria-hidden="true">*</span></label>
+                            <input type="tel"
+                                   id="form-phone"
+                                   name="phone"
+                                   placeholder="9 1234 5678"
+                                   required
+                                   autocomplete="tel">
+                            <span class="error-msg" id="phoneError" role="alert" aria-live="polite"></span>
+                        </div>
+
+                        <!-- Campo: Descripción del proyecto (mínimo 10 caracteres para detallar la obra) -->
+                        <div class="form-group">
+                            <label for="form-message">Cuéntanos tu proyecto <span class="required-mark" aria-hidden="true">*</span></label>
+                            <textarea id="form-message"
+                                      name="message"
+                                      rows="4"
+                                      placeholder="Describe: tipo de superficie, metros cuadrados aproximados y región..."
+                                      required
+                                      minlength="10"
+                                      maxlength="2000"></textarea>
+                            <span class="error-msg" id="messageError" role="alert" aria-live="polite"></span>
+                        </div>
+
+                        <!-- Botón de envío: el JS lo deshabilita durante el fetch para evitar doble envío -->
+                        <button type="submit" class="btn-submit-form">
+                            Solicitar Evaluación Gratuita
+                        </button>
+
+                        <!-- Aviso de tiempo de respuesta debajo del botón (genera confianza) -->
+                        <p class="form-disclaimer">
+                            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:middle;margin-right:4px" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+                            Respuesta técnica en menos de 24 horas hábiles
+                        </p>
+
+                        <!-- Aviso de privacidad — Ley 19.628 de Protección de Datos Personales (Chile) -->
+                        <p class="form-privacy-notice">
+                            🔒 Los datos ingresados se usarán exclusivamente para contactarte con una cotización técnica. No se comparten con terceros. Responsable: Aispoltec — <a href="mailto:aispoltec@gmail.com" class="form-privacy-link">aispoltec@gmail.com</a>
+                        </p>
+
+                    </form><!-- fin #aispoltecForm -->
+                </div><!-- fin .contact-form-side -->
+
+            </div><!-- fin .contact-container -->
+        </section><!-- fin #contacto -->
+
+        <!-- VENTANA FLOTANTE DE CONFIRMACIÓN DE ENVÍO EXITOSO -->
+        <!-- JS activa la clase 'success-active' cuando Formspree confirma la recepción del email -->
+        <div id="successModal" class="success-overlay" role="dialog" aria-modal="true" aria-labelledby="success-title">
+            <div class="success-card-wrapper">
+                <div class="success-icon-check" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" class="success-svg-vector"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                </div>
+                <h3 id="success-title">¡Solicitud Enviada con Éxito!</h3>
+                <p>Hemos recibido tu consulta correctamente. Nuestro equipo técnico revisará los requerimientos de tu proyecto y te contactará en <strong>menos de 24 horas hábiles</strong>.</p>
+                <!-- onclick llama a la función global cerrarSuccessModal() definida en script.js -->
+                <button class="btn-success-close" onclick="cerrarSuccessModal()">Entendido</button>
+            </div>
+        </div><!-- fin #successModal -->
+
+    </main><!-- fin main -->
+
+    <!-- ===== PIE DE PÁGINA CORPORATIVO (4 COLUMNAS) ===== -->
+    <footer class="main-footer" role="contentinfo">
+        <div class="footer-container">
+
+            <!-- Columnas superiores: marca, servicios, empresa, contacto -->
+            <div class="footer-top-layout">
+
+                <!-- Columna 1: Identidad de marca con redes sociales -->
+                <div class="footer-column col-brand">
+                    <div class="footer-logo-box">
+                        <!-- Isotipo del escudo sin el texto horizontal -->
+                        <img src="assets/images/LogoAispoltecSinFondo.png" alt="Isotipo Aispoltec" class="footer-shield-img" width="50" height="50">
+                        <span class="footer-brand-title">AISPOLTEC</span>
+                    </div>
+                    <p class="footer-brand-desc">Soluciones profesionales en aislamiento e impermeabilización industrial para todo Chile.</p>
+                    <!-- Íconos de redes sociales pequeños -->
+                    <div class="footer-social-links">
+                        <a href="https://www.instagram.com/aispoltec.cl/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="Instagram de Aispoltec">
+                            <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                        </a>
+                        <a href="https://www.facebook.com/aispoltec.cl/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" aria-label="Facebook de Aispoltec">
+                            <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path fill="currentColor" d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Columna 2: Links a secciones de servicios -->
+                <div class="footer-column">
+                    <h4>Servicios</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="#servicios">Aislamiento Térmico</a></li>
+                        <li><a href="#servicios">Aislamiento Expansivo</a></li>
+                        <li><a href="#servicios">Aislamiento Acústico</a></li>
+                        <li><a href="#servicios">Impermeabilización UV</a></li>
+                        <li><a href="#servicios">Arriendo de Maquinaria</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 3: Links internos de navegación -->
+                <div class="footer-column">
+                    <h4>Empresa</h4>
+                    <ul class="footer-links-list">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Sobre Nosotros</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <!-- Columna 4: Contacto directo y WhatsApp -->
+                <div class="footer-column col-contact">
+                    <h4>Contacto Directo</h4>
+                    <ul class="footer-contact-info">
+                        <li><a href="tel:+56979679866">+56 9 7967 9866</a></li>
+                        <li><a href="mailto:aispoltec@gmail.com">aispoltec@gmail.com</a></li>
+                        <li><p>Santiago, Chile</p></li>
+                        <!-- Botón de WhatsApp directo en el footer -->
+                        <li>
+                            <a href="https://wa.me/56979679866?text=Hola%20Aispoltec%2C%20me%20interesa%20cotizar."
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="footer-wsp-btn"
+                               aria-label="Contactar por WhatsApp">
+                                <svg viewBox="0 0 32 32" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M16 2a13 13 0 0 0-11.3 19.4L3 29l7.8-2A13 13 0 1 0 16 2zm6.7 18.4c-.3.8-1.5 1.5-2.1 1.6-.6.1-1.3.2-3.8-.8a14.8 14.8 0 0 1-6-5.3c-.8-1-1.3-2.3-1.3-3.6A3.7 3.7 0 0 1 11 10l.3-.1h.7c.2 0 .5-.1.8.5l1 2.3c.1.2 0 .5-.2.7l-.7.8c-.2.2-.4.4-.2.8.2.3 1 1.7 2.2 2.8a8.2 8.2 0 0 0 3.2 2.2c.4.1.6 0 .8-.2s1-1.1 1.2-1.5c.2-.4.5-.3.8-.2l2.3 1c.3.2.5.3.6.5.1.3.1 1.3-.3 2.1z"/></svg>
+                                WhatsApp
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div><!-- fin .footer-top-layout -->
+
+            <!-- Datos estructurados de contacto para SEO local — visualmente integrados en el footer -->
+            <address class="footer-address-seo">
+                <strong>Aispoltec</strong> — Empresa de aislamiento térmico, expansivo y acústico e impermeabilización industrial en Chile.
+                <a href="tel:+56979679866">+56 9 7967 9866</a> ·
+                <a href="mailto:aispoltec@gmail.com">aispoltec@gmail.com</a> ·
+                Santiago, Chile. Operativa en todo el país desde Atacama hasta la Antártica.
+            </address>
+
+            <!-- Barra inferior: copyright y crédito al desarrollador -->
+            <div class="footer-bottom-bar">
+                <!-- id="footer-year" es actualizado automáticamente por el script inline al final del body -->
+                <p>&copy; <span id="footer-year">2026</span> AISPOLTEC. Todos los derechos reservados.</p>
+                <p class="footer-dev-credit">Desarrollado por <strong>Juan Zapata</strong> &mdash; Ingeniero en Informática</p>
+            </div>
+
+        </div><!-- fin .footer-container -->
+    </footer>
+
+    <!-- ===== BOTÓN FLOTANTE DE WHATSAPP ===== -->
+    <a href="https://wa.me/56979679866?text=Hola%20Aispoltec%2C%20me%20interesa%20solicitar%20una%20cotizaci%C3%B3n."
+       target="_blank"
+       rel="noopener noreferrer"
+       class="wsp-float"
+       aria-label="Contactar a Aispoltec por WhatsApp">
+        <svg viewBox="0 0 32 32" class="wsp-icon-svg" aria-hidden="true">
+            <path d="M16 2a13 13 0 0 0-11.3 19.4L3 29l7.8-2A13 13 0 1 0 16 2zm6.7 18.4c-.3.8-1.5 1.5-2.1 1.6-.6.1-1.3.2-3.8-.8a14.8 14.8 0 0 1-6-5.3c-.8-1-1.3-2.3-1.3-3.6A3.7 3.7 0 0 1 11 10l.3-.1h.7c.2 0 .5-.1.8.5l1 2.3c.1.2 0 .5-.2.7l-.7.8c-.2.2-.4.4-.2.8.2.3 1 1.7 2.2 2.8a8.2 8.2 0 0 0 3.2 2.2c.4.1.6 0 .8-.2s1-1.1 1.2-1.5c.2-.4.5-.3.8-.2l2.3 1c.3.2.5.3.6.5.1.3.1 1.3-.3 2.1z"/>
+        </svg>
+        <span class="wsp-text">¿Necesitas ayuda?</span>
+    </a>
+
+    <!-- ===== BOTÓN DE SCROLL AL INICIO ===== -->
+    <!-- JS añade la clase 'scroll-top-visible' cuando el usuario baja más de 600px -->
+    <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Volver al inicio de la página">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+            <polyline points="18 15 12 9 6 15"/>
+        </svg>
+    </button>
+
+    <!-- ===== CONTROLADOR DE COMPORTAMIENTO DINÁMICO ===== -->
+    <!-- Cargado al final del body para no bloquear el renderizado del HTML -->
+    <script src="script.js"></script>
+
+    <!-- Script inline: actualiza el año del copyright automáticamente cada enero -->
+    <script>
+        document.getElementById('footer-year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
