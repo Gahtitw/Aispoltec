@@ -9,49 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
     
 
     
-    const rutasCriticas = [
-        'assets/images/PoliuretanoGalpon-07-Aplicacion.jpg',
-        'assets/images/ImpermeabilizacionTerraza1-Durante.jpg',
-        'assets/images/Antartica-01-Aplicacion.jpg'
-    ];
-
-    const preloader    = document.getElementById('preloader');
-    let imagenesCargadas = 0;
-
-    
-    const verificarFinDeCarga = () => {
-        imagenesCargadas++;
-        if (imagenesCargadas >= rutasCriticas.length) {
-            
-            setTimeout(() => {
-                if (preloader) {
-                    preloader.classList.add('preloader-hidden'); 
-                }
-            }, 400);
-        }
-    };
-
-    
-    rutasCriticas.forEach(ruta => {
-        const imgTemp = new Image();
-        imgTemp.src    = ruta;
-        imgTemp.onload = verificarFinDeCarga; 
-        imgTemp.onerror= verificarFinDeCarga; 
-    });
-
-    
-    setTimeout(() => {
-        if (preloader && !preloader.classList.contains('preloader-hidden')) {
-            preloader.classList.add('preloader-hidden');
-        }
-    }, 4000);
-
-    
-    
-    
-    
-    
-
     const navbar = document.querySelector('.navbar');
 
     window.addEventListener('scroll', () => {
@@ -195,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const elementosAnimados = document.querySelectorAll(
         '.service-card, .stat-card, .about-content-side, .about-image-card, ' +
         '.result-card, .commitment-card, .contact-info-side, .contact-form-side, ' +
-        '.cert-item, .process-step-card, .testimonial-card'
+        '.cert-item, .process-step-card'
     );
 
     if (!prefieresMovimientoReducido) {
