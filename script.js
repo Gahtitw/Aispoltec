@@ -10,12 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
     const rutasCriticas = [
-        'assets/images/Trabajo1.png',
-        'assets/images/Trabajo2.png',
-        'assets/images/Trabajo3.png',
-        'assets/images/Trabajo4.png',
-        'assets/images/Trabajo6.png',
-        'assets/images/Trabajo7.png'
+        'assets/images/PoliuretanoGalpon-07-Aplicacion.jpg',
+        'assets/images/ImpermeabilizacionTerraza1-Durante.jpg',
+        'assets/images/Antartica-01-Aplicacion.jpg'
     ];
 
     const preloader    = document.getElementById('preloader');
@@ -754,95 +751,4 @@ document.addEventListener('DOMContentLoaded', () => {
         slider.addEventListener('touchend', () => { isDragging = false; });
     });
 
-    
-    
-    
-    
-    
-    
-    
-    
-
-    const calcForm        = document.getElementById('calcForm');
-    const calcPlaceholder = document.getElementById('calcPlaceholder');
-    const calcResults     = document.getElementById('calcResults');
-
-    
-    const formatCLP = (num) => '$ ' + Math.round(num).toLocaleString('es-CL') + ' CLP';
-
-    if (calcForm) {
-        calcForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-
-            const superficie = parseFloat(document.getElementById('calc-superficie').value) || 0;
-            const tipo       = document.getElementById('calc-tipo').value;
-            const zona       = document.getElementById('calc-zona').value;
-
-            if (superficie <= 0 || superficie > 99999) return;
-
-            
-            const consumoBase = {
-                galpon:      { norte: 13, centro:  8, sur: 10 },
-                bodega:      { norte:  9, centro:  6, sur:  8 },
-                residencial: { norte:  7, centro:  5, sur:  6 },
-                contenedor:  { norte: 18, centro: 12, sur: 14 }
-            };
-
-            
-            const pctAhorro = { galpon: 0.35, bodega: 0.30, residencial: 0.27, contenedor: 0.42 };
-
-            
-            const preciokWh = 118;   
-
-            
-            const factorCO2 = 0.41;  
-
-            
-            const valorUF   = 39800; 
-
-            
-            const costoPorM2 = { galpon: 22000, bodega: 25000, residencial: 28000, contenedor: 19000 };
-
-            
-            const consumoMes   = superficie * consumoBase[tipo][zona];   
-            const ahorroKWhMes = consumoMes * pctAhorro[tipo];           
-            const ahorroMesCLP = ahorroKWhMes * preciokWh;               
-            const ahorroAnioCLP= ahorroMesCLP * 12;                      
-            const co2Anio      = Math.round(ahorroKWhMes * 12 * factorCO2); 
-            const inversion    = superficie * costoPorM2[tipo];          
-            const payback      = (inversion / ahorroAnioCLP).toFixed(1); 
-            const ahorroMesUF  = (ahorroMesCLP  / valorUF).toFixed(2);
-            const ahorroAnioUF = (ahorroAnioCLP / valorUF).toFixed(1);
-
-            
-            document.getElementById('res-mensual').textContent    = formatCLP(ahorroMesCLP);
-            document.getElementById('res-mensual-uf').textContent = `≈ ${ahorroMesUF} UF / mes`;
-
-            document.getElementById('res-anual').textContent      = formatCLP(ahorroAnioCLP);
-            document.getElementById('res-anual-uf').textContent   = `≈ ${ahorroAnioUF} UF / año`;
-
-            document.getElementById('res-co2').textContent        = co2Anio.toLocaleString('es-CL') + ' kg';
-            document.getElementById('res-co2-sub').textContent    = 'de CO₂ evitado al año';
-
-            document.getElementById('res-payback').textContent    = payback + ' años';
-            document.getElementById('res-payback-sub').textContent= 'recuperación de inversión aprox.';
-
-            
-            if (calcPlaceholder) calcPlaceholder.style.display = 'none';
-            if (calcResults) {
-                calcResults.style.display = 'flex';
-                
-                calcResults.style.opacity = '0';
-                calcResults.style.transform = 'translateY(10px)';
-                calcResults.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
-                requestAnimationFrame(() => {
-                    requestAnimationFrame(() => {
-                        calcResults.style.opacity = '1';
-                        calcResults.style.transform = 'translateY(0)';
-                    });
-                });
-            }
-        });
-    }
-
-}); 
+});
